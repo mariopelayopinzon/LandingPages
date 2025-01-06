@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(48, 46, 46);
+    padding-left: 40px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+}
+
+
+.left-side {
+    display: flex; 
+    align-items: center;
+    gap: 2rem; 
+    
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+    padding-left: 150px;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.leftside-img, .rightside-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%x;
+    color: white;
+    
+}
+
+.leftside-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px; 
+    height: 55px;
+    color: white;   
+}
+
+.rightside-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px; 
+    height: 55px;
+    color: white;
+}
+
+.leftside-item, .rightside-item {
+    width: 100%;     
+    height: 100%; 
+    object-fit: contain; 
+    transition: transform 0.3s ease;
+}
+
+.leftside-item:hover, .rightside-item:hover {
+    transform: scale(1.1);
+}
+
+
+.brand-banner {
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: black;
+    align-items: center;
+    
+    
+}
+
+.brand-img {
+    width: 400px;
+    height: 100px;
+    padding-top: 0px;
+    margin-top: 80px;
+    padding-bottom: 5px;
+    margin-top: -18px;
+    align-items: center;
+    padding-left: 450px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.brand-socialmedia {
+    justify-content: right;
+    width: 150px;
+    height: 50px; 
+    justify-content: flex-end;
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 10px;
+}
+        
+.brand-socialmedia i {
+    font-size: 30px;
+    color: white; 
+    transition: transform 0.3s case; 
+}
+
+.brand-socialmedia i:hover {
+    transform: scale(1.2); 
+}
