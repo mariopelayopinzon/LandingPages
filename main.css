@@ -115,26 +115,19 @@ body {
 }
 
 .brand-img {
-    width: 700px;
-    height: 150px;
-    padding-top: 0px;
-    margin-top: 80px;
-    padding-bottom: 5px;
-    margin-top: -18px;
+    width: 350px;
     align-items: center;
-    padding-left: 350px;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    justify-content: center;
+    right: 0;
 }
 
 .brand-socialmedia {
-    justify-content: right;
-    width: 150px;
-    height: 50px; 
+    display: flex;
     justify-content: flex-end;
-    padding-left: 0;
-    margin-top: 0;
-    padding-top: 10px;
+    align-items: center;
+    right: 0;
+    padding-right: 10px;
+    position: absolute;
 }
 
 .brand-socialmedia i {
