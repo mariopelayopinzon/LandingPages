@@ -15,10 +15,10 @@ body {
 .main-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color:rgb(48, 46, 46);
-    padding: 0; 
+    padding: 0px 10px; 
     width: 100%;
     box-sizing: border-box;
     height: 100%;
@@ -147,6 +147,8 @@ body {
     background-color: gray;
     border-radius: 50%;
     padding: 7.5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .row_nav { 
@@ -155,13 +157,16 @@ body {
     color: white;
     font-size: 25px;
     text-decoration: none;
+    padding: 0px 10px;
+    font-weight: 600;
+    padding-bottom: 25px;
 }
 
 .nav_header{
     display: flex;
     list-style: none;
     text-decoration: none;
-    gap: 1.5rem; 
+    gap: 1rem; 
 }
 
 .nav_header li a {
@@ -179,4 +184,17 @@ body {
 
 .nav_header:hover {
     cursor: pointer; 
+}
+
+.search {
+    display: flexbox;
+    position: absolute;
+    right: 0;
+    padding: 20px 30px;
+    background-color: gray;
+    padding: 7.5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    
 }
